@@ -1,0 +1,120 @@
+/*页面标题h style*/
+h1{
+    text-align: center;
+}
+
+/*正文style*/
+#mainDiv {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/*上传按钮style*/
+#fileDiv {
+    width: 100%;
+    position: relative;
+    background: #4CAF50;
+    color: white;
+    padding:  14px 0;
+    margin: 8px 0;
+    border: none;
+    height: 23px;
+    font: 400 15px/23px "微软雅黑";
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none;
+}
+#fileDiv #uploadButton {
+    position: absolute;
+    font-size: 100px;
+    height: 77px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+#fileDiv:hover {
+    background: #45a049;
+}
+
+/*案件文本域style*/
+textarea {
+  width: 100%;
+  height: 400px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+/*信息输入域style*/
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+/*鼠标选定时变灰*/
+input[type=text]:focus {
+  background-color: lightgrey;
+}
+
+/*保存按钮style*/
+#saveButton {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+    font: 400 15px/23px "微软雅黑";
+}
+/*鼠标选按钮时绿色加深*/
+#saveButton:hover {
+  background-color: #45a049;
+}
+
+
+#clearContentButton{
+    width: 49%;
+    background-color: lightgrey;
+    color: black;
+    padding: 14px 0;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+#clearContentButton:hover {
+    background: silver;
+}
+
+#clearMarkButton{
+    width: 49%;
+    background-color: lightgray;
+    color: black;
+    padding: 14px 0;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+#clearMarkButton:hover{
+    background: silver;
+}
+
+
+

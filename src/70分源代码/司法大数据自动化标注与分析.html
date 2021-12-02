@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>司法大数据自动化标注与分析</title>
+    <link rel="stylesheet" type="text/css" href="司法大数据自动化标注与分析.css">
+    <script src="司法大数据自动化标注与分析.js"></script>
+</head>
+
+
+<body>
+
+<!--页面标题-->
+<h1>司法大数据标注与分析</h1>
+
+<!--标题下正文-->
+<div id="mainDiv">
+
+    <!--上传文件按钮-->
+    <!-- 用一个div来当作美化的上传按钮，file按钮被透明化 -->
+    <div id="fileDiv">
+        上传案例文件
+        <input type="file" id="uploadButton" name="uploadButton" accept="text/plain">
+    </div>
+
+    <!--案件文本域-->
+    <fieldset>
+        <legend>案件文本：</legend> <!--域名-->
+        <textarea name="textArea" id="textArea"></textarea>
+    </fieldset>
+
+    <!--清空案例文本按钮-->
+    <input type="button" id="clearContentButton" value="清空案例文本" onclick="clearContent()">
+
+    <!--清空标注按钮-->
+    <input type="button" id="clearMarkButton" value="清空所有标注" onclick="clearMark()">
+
+    <!--信息标注域-->
+    <fieldset>
+        <legend>信息标注：</legend> <!--域名-->
+
+        <label for="party">当事人</label> <!--添加label提高鼠标用户的体验-->
+        <input type="text" id="party" class="text" placeholder="当事人"><br>
+
+        <label for="sex">性别</label>
+        <input type="text" id="sex" class="text"  placeholder="性别"><br>
+
+        <label for="nationality">民族</label>
+        <input type="text" id="nationality" class="text" placeholder="民族"> <br>
+
+        <label for="birthPlace">出生地</label>
+        <input type="text" id="birthPlace" class="text" placeholder="出生地"><br>
+
+        <label for="cause">案由</label>
+        <input type="text" id="cause" class="text" placeholder="案由"><br>
+
+        <label for="court">相关法院</label>
+        <input type="text" id="court" class="text" placeholder="相关法院"><br>
+    </fieldset>
+
+    <!--保存案件与标注-->
+    <input type="button" id="saveButton" value="保存案件与标注" onclick="saveFile()">
+
+</div>
+
+</body>
+</html>
