@@ -4,15 +4,18 @@
 
 ## 70分要求
 
-![](../images/70分/70分要求.png)
+
+![70分要求](https://github.com/Cloudy1225/Data-Science-Program/raw/main/images/70分/70分要求.png)
 
 ## 网页效果
 
-![](../images/70分/70分网页效果.jpeg)
+![网页效果](https://github.com/Cloudy1225/Data-Science-Program/raw/main/images/70分/70分网页效果.jpeg)
 
 ## 示例展示
 
-<img src="../images/70分/70分示例展示.png" style="zoom:25%;" align="left" /><img src="../images/70分/70分示例下载结果.png" style="zoom:33%;" align="right"/>
+
+<img src="https://github.com/Cloudy1225/Data-Science-Program/raw/main/images/70分/70分示例展示.png" alt="示例展示" width = 50% align="top"/><img src="https://github.com/Cloudy1225/Data-Science-Program/raw/main/images/70分/70分示例下载结果.png" alt="示例下载结果" width=50% align="top"/>
+
 
 
 
@@ -54,7 +57,7 @@
 
 源码分为三个部分，位于 “Data-Science-Program\src\70分源代码” 路径下，将代码拷贝到本地即可跑
 
-- 司法大数据自动化标注与分析.html  ············································  网页主体的编写
+- 司法大数据自动化标注与分析.html  ············································· 网页主体的编写
 - 司法大数据自动化标注与分析.css  ···············································  美化布局格式
 - 司法大数据自动化标注与分析.js  ··················································  实现各种按钮的功能逻辑
 
